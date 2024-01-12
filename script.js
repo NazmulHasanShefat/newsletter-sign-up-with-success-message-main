@@ -18,8 +18,3 @@ function validation(){
      return isvalid
     
 }
-let backbtn = document.querySelector("#submit-btn");
-
-  backbtn.addEventListener("click", () =>{
-    window.history.back();
-  });
