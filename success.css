@@ -78,8 +78,13 @@ body{
     box-shadow: 0 2px 8px 0 rgba(255,98,87,0.8127626050420168), 0 6px 8px 0 rgba(255,153,51,0.8407738095238095);
 }
 @media screen and (max-width:768px) {
+    .page-container{
+        height:110vh;
+        width:100%;
+        align-items: start;
+    }
     .main-container{
-        height:100vh;
+        height:104vh;
         width:100%;
         justify-content: flex-start;
         border-radius:0;
@@ -90,10 +95,11 @@ body{
         margin-left:20px;
     }
     .Dismiss-button{
-        height: 444px;
+        height: 270px;
         width: 100%;
         display: flex;
         align-items: end;
+        margin-bottom:20px;
     }
     .Thank-description p{
         font-size:20px;
