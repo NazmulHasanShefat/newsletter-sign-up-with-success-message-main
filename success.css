@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    list-style:none;
+}
+:root{
+    --Tomato: hsl(4, 100%, 67%);
+    --DarkSlateGrey: hsl(234, 29%, 20%);
+    --CharcoalGrey: hsl(235, 18%, 26%);
+    --Grey: hsl(231, 7%, 60%);
+    --White: hsl(0, 0%, 100%);
+    --font_1: 'Roboto'; 
+    --font_2:sans-serif;
+}
+body{
+    background-color: var(--DarkSlateGrey);
+}
+.page-container{
+    height:100vh;
+    width:100%;
+    background-color: var(--DarkSlateGrey);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.main-container{
+    height:368px;
+    width:420px;
+    background-color:var(--White);
+    border-radius: 20px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.contant-container{
+    height: 320px;
+    width:330px;
+}
+.tik-mark{
+    height: max-content;
+    width: 100%;
+    margin-bottom:20px;
+}
+.Thank-massage{
+    height: max-content;
+    width: 100%;
+    margin-bottom:10px;
+}
+.thank-text{
+    font-size:3rem;
+    font-family:var(--font_1);
+}
+.Thank-description{
+    height: max-content;
+    width: 100%;
+    margin-bottom:20px;
+}
+.Thank-description p{
+    font-size:15px;
+    font-family: var(--font_2);
+}
+.Dismiss-button{
+    height:max-content;
+    width: 100%;
+}
+.goBack_btn{
+    height: 40px;
+    width: 100%;
+    border:none;
+    outline:none;
+    background-color: var(--DarkSlateGrey);
+    transition: all .5s ease-out;
+    color:var(--White);
+}
+.goBack_btn:hover{
+    background: linear-gradient(114deg, rgba(255,98,87,1) 21%, rgba(255,153,51,1) 65%, rgba(255,204,0,1) 100%);
+    box-shadow: 0 2px 8px 0 rgba(255,98,87,0.8127626050420168), 0 6px 8px 0 rgba(255,153,51,0.8407738095238095);
+}
+@media screen and (max-width:768px) {
+    .main-container{
+        height:100vh;
+        width:100%;
+        justify-content: flex-start;
+        border-radius:0;
+    }
+    .contant-container{
+        width: 90%;
+        height: 30vh;
+        margin-left:20px;
+    }
+    .Dismiss-button{
+        height: 444px;
+        width: 100%;
+        display: flex;
+        align-items: end;
+    }
+    .Thank-description p{
+        font-size:20px;
+        font-family: var(--font_2);
+    }
+}
