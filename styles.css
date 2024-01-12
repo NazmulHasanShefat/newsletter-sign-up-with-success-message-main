@@ -143,6 +143,7 @@ span img{
     color:var(--White);
     transition:all .6s ease-in-out;
     border-radius:5px;
+    cursor: pointer;
 }
 .submit-button button:hover{
     background: linear-gradient(114deg, rgba(255,98,87,1) 21%, rgba(255,153,51,1) 65%, rgba(255,204,0,1) 100%);

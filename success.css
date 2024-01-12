@@ -72,6 +72,7 @@ body{
     background-color: var(--DarkSlateGrey);
     transition: all .5s ease-out;
     color:var(--White);
+    cursor: pointer;
 }
 .goBack_btn:hover{
     background: linear-gradient(114deg, rgba(255,98,87,1) 21%, rgba(255,153,51,1) 65%, rgba(255,204,0,1) 100%);
